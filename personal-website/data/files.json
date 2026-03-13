@@ -1,0 +1,112 @@
+{
+  "_comment": "=========================================",
+  "_comment": "  文件数据配置文件",
+  "_comment": "  添加/删除/修改文件，只需要编辑这个文件！",
+  "_comment": "=========================================",
+
+  "categories": [
+    {
+      "id": "learning-materials",
+      "name": "学习资料",
+      "icon": "📚",
+      "_comment": "下面的 files 数组中添加你的文件",
+      "files": [
+        {
+          "_comment": "复制这个块来添加新文件",
+          "name": "示例：Python学习笔记",
+          "description": "Python从入门到精通的完整学习笔记，包含基础语法、进阶技巧和实战项目",
+          "type": "PDF",
+          "size": "15MB",
+          "date": "2024-01-15",
+          "link": "https://pan.baidu.com/s/xxxxx",
+          "_comment": "link 填写你的网盘分享链接"
+        }
+      ]
+    },
+    {
+      "id": "software-tools",
+      "name": "软件工具",
+      "icon": "🛠️",
+      "files": [
+        {
+          "name": "示例：截图工具 Snipaste",
+          "description": "超好用的截图和贴图工具，支持一键截图、屏幕标注等功能",
+          "type": "EXE",
+          "size": "8MB",
+          "date": "2024-01-10",
+          "link": "https://pan.quark.cn/xxxxx"
+        },
+        {
+          "name": "示例：VS Code 编辑器",
+          "description": "微软出品的免费代码编辑器，轻量级但功能强大",
+          "type": "EXE",
+          "size": "80MB",
+          "date": "2024-01-08",
+          "link": "https://pan.baidu.com/s/xxxxx"
+        }
+      ]
+    },
+    {
+      "id": "video-tutorials",
+      "name": "视频教程",
+      "icon": "🎬",
+      "files": [
+        {
+          "name": "示例：HTML入门教程",
+          "description": "零基础学HTML网页开发，共20课时",
+          "type": "MP4",
+          "size": "500MB",
+          "date": "2024-01-05",
+          "link": "https://pan.baidu.com/s/xxxxx"
+        }
+      ]
+    },
+    {
+      "id": "ebooks",
+      "name": "电子书籍",
+      "icon": "📖",
+      "files": [
+        {
+          "name": "示例：《JavaScript高级程序设计》",
+          "description": "前端开发必读经典书籍，详细讲解JS核心概念",
+          "type": "PDF",
+          "size": "25MB",
+          "date": "2024-01-01",
+          "link": "https://pan.quark.cn/xxxxx"
+        }
+      ]
+    }
+  ],
+
+  "_comment": "=========================================",
+  "_comment": "  使用说明",
+  "_comment": "=========================================",
+  "_comment": "",
+  "_comment": "1. 添加新文件：",
+  "_comment": "   - 复制一个文件块（花括号包裹的部分）",
+  "_comment": "   - 修改 name、description、link 等信息",
+  "_comment": "   - 粘贴到对应分类的 files 数组中",
+  "_comment": "",
+  "_comment": "2. 添加新分类：",
+  "_comment": "   - 复制一个 categories 中的分类块",
+  "_comment": "   - 修改 id、name、icon",
+  "_comment": "   - 粘贴到 categories 数组中",
+  "_comment": "",
+  "_comment": "3. 删除文件：",
+  "_comment": "   - 直接删除对应的文件块即可",
+  "_comment": "",
+  "_comment": "4. 文件类型 (type) 常用值：",
+  "_comment": "   - 文档：PDF, DOC, PPT, TXT",
+  "_comment": "   - 压缩：ZIP, RAR, 7Z",
+  "_comment": "   - 软件：EXE, APK",
+  "_comment": "   - 图片：JPG, PNG, GIF",
+  "_comment": "   - 视频：MP4, MKV, AVI",
+  "_comment": "",
+  "_comment": "5. 图标 (icon) 可用 emoji：",
+  "_comment": "   - 📁 📚 📖 🎬 🛠️ 💻 📊 📝",
+  "_comment": "   - 🎮 🎵 📷 🔧 💡 ⭐ 🎯 🏆",
+  "_comment": "",
+  "_comment": "6. 保存后重新部署网站即可生效！",
+  "_comment": "",
+  "_comment": "========================================="
+}
